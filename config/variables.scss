@@ -81,7 +81,7 @@ $row-size: calc(
 // Try to keep it in sync with maxWidth of `gatsby-remark-images`
 
 $container: 100rem;
-$container-text: 55rem; // Longer texts should have a smaller max-width to improve readability
+$container-text: 80rem; // Longer texts should have a smaller max-width to improve readability
 
 // Responsive Typography
 // You can set your min and max font-size here
@@ -98,8 +98,8 @@ html {
 // You don't need to change anything below here
 // --------------------------------------------
 
-$background-color: #f3f3f3;
-$body-color: #222;
+$background-color: #222;
+$body-color: #f3f3f3;
 $link-color: $brand-primary;
 $link-decoration: none;
 $link-color-hover: darken($brand-primary, 15%);

@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
+import { Grid, Row, Col } from 'react-grid-system';
 
 const Contact = () => (
   <div className="container contact-container">

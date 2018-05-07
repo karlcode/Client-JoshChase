@@ -21,17 +21,16 @@
   justify-content: center;
 }
 
-.navigation > span {
-  margin-right: auto;
-}
+
 
 .socialMedia > span {
   margin-left: auto;
 }
 
 .navigation {
+  
   a:not(:first-child) {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 }
 

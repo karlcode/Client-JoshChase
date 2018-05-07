@@ -29,16 +29,11 @@ export default class Navigation extends Component {
       <header>
         <Headroom calcHeightOnResize disableInlineStyles>
           <Fade down duration={2000} className={styles.wrapper}>
-            <nav className={styles.navigation}>
+          <div className={styles.socialMedia}>
               <span>
-                <Link to="/about" activeClassName="active">
-                  About
-                </Link>
-                <Link to="/contact" activeClassName="active">
-                  Contact
-                </Link>
+                
               </span>
-            </nav>
+            </div>
             <div className={styles.name}>
               <span>
                 <Link to="/">
@@ -46,19 +41,26 @@ export default class Navigation extends Component {
                 </Link>
               </span>
             </div>
-            <div className={styles.socialMedia}>
+            
+            <nav className={styles.navigation}>
               <span>
-                <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
-                  <FaInstagram />
-                </a>
-                <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer">
-                  <FaBehance />
-                </a>
-                <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
-                  <FaDribbble />
-                </a>
+                <Link to="/" activeClassName="active" exact={true}>
+                  Home
+                </Link>
+                <Link to="/about" activeClassName="active">
+                  About
+                </Link>
+                <Link to="/services" activeClassName="active">
+                  Services
+                </Link>
+                <Link to="/faq" activeClassName="active">
+                  FAQ
+                </Link>
+                <Link to="/contact" activeClassName="active">
+                  Contact
+                </Link>
               </span>
-            </div>
+            </nav>
           </Fade>
         </Headroom>
         <div className={styles.mobileNav}>
