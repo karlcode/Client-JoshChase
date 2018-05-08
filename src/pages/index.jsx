@@ -14,33 +14,26 @@ const Index = props => {
       </Helmet>
       <Container text>
       <Row >
-        <Col xs={12} md={8} >
-        <h1>Hi!</h1>
+        <Col xs={12} md={12} >
+        <h1>Greetings</h1>
         <p>
-          Thank you for making your way to my site. As our society has evolved into a more egalitarian and a less judgemental one women have been afforded opportunities to explore dimensions that heretofore had been generally open only to men. It has become far more acceptable for a woman to wish to spend time with a quality gentleman without the complications of a commitment or a relationship. If you are such a woman then I encourage you to peruse this site.
+          Thank you for making your way to my site. As our society has evolved into a more egalitarian and a less judgemental one, women have been afforded opportunities to explore dimensions that heretofore had been generally open only to men. It has become far more acceptable for a woman to wish to spend time with a quality gentleman without the complications of a commitment or a relationship. If you are such a woman then I encourage you to peruse this site.
 
         </p>
         <p>
-        My name is Josh Chase, and I am a professional companion. I am the perfect solution to your dilemma.
+        My name is Josh Chase, and I am a professional companion. I am the <b>perfect</b> solution to your dilemma.
 
         </p>
         <p>
-        Welcome to my website - please have a look around and get to know me better, and if you feel we would be compatible, I would be delighted to hear from you.
+        Welcome to my website - please have a look around and get to know me better and if you feel we would be compatible, I would be delighted to hear from you.
+
+        </p>
+        <p>
+        Signature here
 
         </p>
         </Col>
-        <Col xs={12} md={4} debug>
-        <ul>
-          <li>Height: 6'</li>
-          <li>Weight: 75kg</li>
-          <li>Ethnicity: Latin American</li>
-          <li>Occupation: Entrepreneur, Model</li>
-          <li>Age: 36</li>
-          <li>Skin tone: Fair</li>
-          <li>Eye colour: Hazel</li>
-          <li>Hair colour: Dark brown</li>
-          </ul>
-        </Col>
+        
       </Row>
 
     </Container>

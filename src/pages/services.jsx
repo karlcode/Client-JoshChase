@@ -5,39 +5,59 @@ import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
-
+import PriceBox from '../components/PriceBox/PriceBox'
 const Services = () => (
   <div className="container about-container">
-    <Helmet title={`About | ${config.siteTitle}`} />
+    <Helmet title={`Services | ${config.siteTitle}`} />
     <Header>Services</Header>
     <Container text>
-    <Row >
-        <Col xs={12} md={8} >
-        <h1>Hi!</h1>
-        <p>
-          Thank you for making your way to my site. As our society has evolved into a more egalitarian and a less judgemental one women have been afforded opportunities to explore dimensions that heretofore had been generally open only to men. It has become far more acceptable for a woman to wish to spend time with a quality gentleman without the complications of a commitment or a relationship. If you are such a woman then I encourage you to peruse this site.
+        <Row >
+        <Col xs={12}  >
+            <p>
+            I provide the <b>ultimate</b> boyfriend experience – without the argument or clinginess - whether it's just for a quiet evening, an intellectual conversation over dinner, or for groundbreaking sex - it's totally your call. </p>
+            <p>
+            I would be delighted to accompany you wherever you desire.
+            I also offer my services to heterosexual couples, although since I am a heterosexual male I don't indulge in any kind of male to male contact.
+            I require a minimum booking time of one hour for you to receive the attention you deserve without being rushed, and for us to get to know each other.
+            </p>
+            <p>
+            Please do not hesitate to contact me if you have any questions on your mind. Below are some of the packages I've devised exclusively for our pleasure.
 
-        </p>
-        <p>
-        My name is Josh Chase, and I am a professional companion. I am the perfect solution to your dilemma.
-
-        </p>
-        <p>
-        Welcome to my website - please have a look around and get to know me better, and if you feel we would be compatible, I would be delighted to hear from you.
-
-        </p>
+            </p>
         </Col>
-        <Col xs={12} md={4} debug>
-        <ul>
-          <li>Height: 6'</li>
-          <li>Weight: 75kg</li>
-          <li>Ethnicity: Latin American</li>
-          <li>Occupation: Entrepreneur, Model</li>
-          <li>Age: 36</li>
-          <li>Skin tone: Fair</li>
-          <li>Eye colour: Hazel</li>
-          <li>Hair colour: Dark brown</li>
-          </ul>
+      </Row>
+      <h1>Therapeutic Body Service</h1>
+      <hr style={{backgroundColor: 'white'}} />
+      <Row >
+        <Col xs={12} md={4} >
+            <PriceBox price="120" time="60 minutes" name="Sensual Body Rub"/>
+        </Col>
+        <Col xs={12} md={4} >
+            <PriceBox price="120" time="60 minutes" name="Tantric Yoni Massage"/>
+        </Col>
+        <Col xs={12} md={4} >
+            <PriceBox price="200" time="120 minutes" name="Erotic Latino Massage" subtitle="inc. body rub"/>
+        </Col>
+      </Row>
+      <h1>Erotic Sensual Playdates</h1>
+      <hr style={{backgroundColor: 'white'}} />
+      <Row >
+        <Col xs={12} md={4}>
+            <PriceBox price="150" time="60 minutes" name="Cocktail Play Date"/>
+        </Col>
+        <Col xs={12} md={4} >
+            <PriceBox price="280" time="120 minutes" name="Tantric Yoni Massage"/>
+        </Col>
+        <Col xs={12} md={4} >
+            <PriceBox price="400" time="3 hours" name="Sensual Rendezvous"/>
+        </Col>
+      </Row>
+      <Row >
+        <Col xs={12} md={4} offset={{ md: 2 }}>
+            <PriceBox price="500" time="4 hours" name="Dinner and Dessert Date"/>
+        </Col>
+        <Col xs={12} md={4} >
+            <PriceBox price="1200" time="~8-12 hours" name="Night of Bliss" subtitle="Overnight encounter"/>
         </Col>
       </Row>
     </Container>

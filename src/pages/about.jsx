@@ -22,21 +22,22 @@ const About = () => (
 
         </p>
         <p>
-        I love to have a good time, meet new people and experience new things. I am a great listener, enjoy stimulating conversation and can converse on all levels.
+        I love to have a good time, meet new people and of course, get to know <b>you</b>. I am a great listener, enjoy stimulating conversation and can converse on all levels.
 
         </p>
         </Col>
-        <Col xs={12} md={4} debug>
-        <h2>Stats</h2>
-        <ul>
-          <li>Height: 6'</li>
-          <li>Weight: 75kg</li>
-          <li>Ethnicity: Latin American</li>
-          <li>Occupation: Entrepreneur, Model</li>
-          <li>Age: 36</li>
-          <li>Skin tone: Fair</li>
-          <li>Eye colour: Hazel</li>
-          <li>Hair colour: Dark brown</li>
+        <Col xs={12} md={1} />
+        <Col xs={12} md={3} style={{display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'black'}}>
+        <ul style={{listStyle: 'none'}}>
+          <li><h2>Stats</h2></li>
+          <li><b>Height:</b> 6'</li>
+          <li><b>Weight:</b> 75kg</li>
+          <li><b>Ethnicity:</b> Latin American</li>
+          <li><b>Occupation:</b> Entrepreneur, Model</li>
+          <li><b>Age:</b> 36</li>
+          <li><b>Skin tone:</b> Fair</li>
+          <li><b>Eye colour:</b> Hazel</li>
+          <li><b>Hair colour:</b> Dark brown</li>
           </ul>
         </Col>
       </Row>

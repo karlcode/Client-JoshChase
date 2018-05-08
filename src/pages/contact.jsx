@@ -11,15 +11,12 @@ const Contact = () => (
     <Helmet title={`Contact | ${config.siteTitle}`} />
     <Header>Contact</Header>
     <Container text>
-      <h1>Contact me!</h1>
+      <h1>Our first contact...</h1>
       <p>
-        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
-        texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
-        small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
-        paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing
-        has no control about the blind texts it is an almost unorthographic life One day however a small line of blind
-        text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to
-        do so, because there were thousands.
+      If you are here contacting me for the first time then please don't feel nervous as I can understand your apprehension and I shall endeavour to put you at ease.
+      </p>
+      <p>
+      In order to maintain the mystique of our dealings, the majority of my clients prefer to communicate in writing to discuss the finer details.
       </p>
     </Container>
     <Footer />
