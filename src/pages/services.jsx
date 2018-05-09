@@ -6,6 +6,8 @@ import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
 import PriceBox from '../components/PriceBox/PriceBox'
+import { Fade } from 'react-reveal';
+
 const Services = () => (
   <div className="container about-container">
     <Helmet title={`Services | ${config.siteTitle}`} />
@@ -13,6 +15,7 @@ const Services = () => (
     <Container text>
         <Row >
         <Col xs={12}  >
+        <Fade up>
             <p>
             I provide the <b>ultimate</b> boyfriend experience – without the argument or clinginess - whether it's just for a quiet evening, an intellectual conversation over dinner, or for groundbreaking sex - it's totally your call. </p>
             <p>
@@ -24,10 +27,14 @@ const Services = () => (
             Please do not hesitate to contact me if you have any questions on your mind. Below are some of the packages I've devised exclusively for our pleasure.
 
             </p>
+        </Fade>
         </Col>
       </Row>
+      <Fade up>
       <h1>Therapeutic Body Service</h1>
+      
       <hr style={{backgroundColor: 'white'}} />
+      
       <Row >
         <Col xs={12} md={4} >
             <PriceBox price="120" time="60 minutes" name="Sensual Body Rub"/>
@@ -60,6 +67,7 @@ const Services = () => (
             <PriceBox price="1200" time="~8-12 hours" name="Night of Bliss" subtitle="Overnight encounter"/>
         </Col>
       </Row>
+      </Fade>
     </Container>
     <Footer />
   </div>

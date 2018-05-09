@@ -5,6 +5,8 @@ import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
+import { Fade } from 'react-reveal';
+
 import {
   Accordion,
   AccordionItem,
@@ -19,18 +21,21 @@ const FAQ = () => (
     <Container text>
     <Row >
         <Col xs={12} >
+        <Fade>
         <Accordion>
             <AccordionItem>
                 <AccordionItemTitle>
                     <h3>What exactly do you offer?</h3>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>I offer a woman the opportunity to feel special in the way that is important to her; mentally, emotionally, physically, and spiritually. My desire is to:
-                        Provide a connection of warm affection, passionate pleasure and tender romance
-                        Share an experience she will always remember
-                        Ease stress through massage, share laughter, and intimate conversation.
-                        Offer safe companionship, intellectually stimulating conversation, and trustworthy friendship
-                        Introduce a woman to the amazing person she truly is</p>
+                    <p>I offer a woman the opportunity to feel special in the way that is important to her; mentally, emotionally, physically, and spiritually. 
+                    </p>
+                    <p> My desire is to:
+                       <ul><li> Provide a connection of warm affection, passionate pleasure and tender romance</li>
+                       <li>Share an experience she will always remember</li>
+                       <li>Ease stress through massage, share laughter, and intimate conversation.</li>
+                       <li>Offer safe companionship, intellectually stimulating conversation, and trustworthy friendship</li>
+                       <li>Introduce a woman to the amazing person she truly is.</li></ul></p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
@@ -89,7 +94,7 @@ const FAQ = () => (
                     <h3>What is a Happy Ending massage?</h3>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>I specialize in various relaxing and exotic massage therapies. I use 100% natural very high quality oils, lotions and scrubs for massage. I can come to you with all the paraphernalia required for massage or you might like to get away from it and come here. Now a standard massage is just that. You should be feeling very relaxed after an hour or two of these ministrations. The slightly less standard part of the massage is what we call the 'Happy Ending'. Nothing extra in cost but let me know if this is what you have in mind, I will gladly oblige</p>
+                    <p>I specialize in various relaxing and exotic massage therapies. I use 100% natural very high quality oils, lotions and scrubs for massage. I can come to you with all the paraphernalia required for massage or you might like to get away from it and come here. Now a standard massage is just that. You should be feeling very relaxed after an hour or two of these ministrations. The slightly less standard part of the massage is what we call the 'Happy Ending'. Nothing extra in cost but let me know if this is what you have in mind, I will gladly oblige.</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
@@ -97,7 +102,7 @@ const FAQ = () => (
                     <h3>Do you only escort in Western Australia?</h3>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>No - my escorting service is available internationally. Depending on where you are however I require a few days advance notice and advance deposit for national or international travel</p>
+                    <p>No - my escorting service is available internationally. Depending on where you are however I require a few days advance notice and advance deposit for national or international travel.</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
@@ -109,6 +114,7 @@ const FAQ = () => (
                 </AccordionItemBody>
             </AccordionItem>
         </Accordion>
+        </Fade>
         </Col>
       </Row>
     </Container>

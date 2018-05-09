@@ -11,13 +11,19 @@ const Contact = () => (
     <Helmet title={`Contact | ${config.siteTitle}`} />
     <Header>Contact</Header>
     <Container text>
-      <h1>Our first contact...</h1>
-      <p>
-      If you are here contacting me for the first time then please don't feel nervous as I can understand your apprehension and I shall endeavour to put you at ease.
-      </p>
-      <p>
-      In order to maintain the mystique of our dealings, the majority of my clients prefer to communicate in writing to discuss the finer details.
-      </p>
+    <Row style={{ textAlign: 'left'}}>
+        <Col xs={12} md={6} offset={{ md: 3 }} >
+        <h1>Our first contact...</h1>
+        <p>
+        If you are here contacting me for the first time then please don't feel nervous as I can understand your apprehension and I shall endeavour to put you at ease.
+        </p>
+        <p>
+        In order to maintain the mystique of our dealings, the majority of my clients prefer to communicate in writing to discuss the finer details.
+        </p>
+        </Col>
+        
+      </Row>
+      
     </Container>
     <Footer />
   </div>

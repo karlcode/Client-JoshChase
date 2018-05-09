@@ -72,13 +72,22 @@ export default class Navigation extends Component {
               <Link to="/" onClick={() => this.closeMenu()}>
                 <h1>{config.siteTitle}</h1>
               </Link>
+              <Link to="/" activeClassName="active" onClick={() => this.closeMenu()}>
+                Home
+              </Link>
               <Link to="/about" activeClassName="active" onClick={() => this.closeMenu()}>
                 About
+              </Link>
+              <Link to="/services" activeClassName="active" onClick={() => this.closeMenu()}>
+                Services
+              </Link>
+              <Link to="/FAQ" activeClassName="active" onClick={() => this.closeMenu()}>
+                FAQ
               </Link>
               <Link to="/contact" activeClassName="active" onClick={() => this.closeMenu()}>
                 Contact
               </Link>
-              <div className={styles.mobileNavSocialMedia}>
+              {/*<div className={styles.mobileNavSocialMedia}>
                 <a href="https://www.instagram.com/lekoarts.de" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
@@ -88,7 +97,7 @@ export default class Navigation extends Component {
                 <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer">
                   <FaDribbble />
                 </a>
-              </div>
+              </div>*/}
             </Menu>
           </div>
         </div>
