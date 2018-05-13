@@ -17,7 +17,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 const FAQ = () => (
   <div className="container about-container">
     <Helmet title={`FAQ | ${config.siteTitle}`} />
+    <Fade >    
     <Header2>FAQ</Header2>
+    </Fade>
     <Container text>
     <Row >
         <Col xs={12} >

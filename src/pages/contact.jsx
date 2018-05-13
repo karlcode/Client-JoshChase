@@ -14,10 +14,13 @@ const Contact = () => (
   <MuiThemeProvider>
   <div className="container contact-container">
     <Helmet title={`Contact | ${config.siteTitle}`} />
+    <Fade >
     <Header3>Contact</Header3>
+    </Fade>
     <Container text>
     <Row style={{ textAlign: 'left'}}>
         <Col xs={12} md={6} offset={{ md: 3 }} >
+        <Fade >
         <h1>Our first contact...</h1>
         <p>
         If you are here contacting me for the first time then please don't feel nervous as I can understand your apprehension and I shall endeavour to put you at ease.
@@ -31,6 +34,7 @@ const Contact = () => (
         <form method="post" action="mailto:companionjosh@yahoo.com" >
         <RaisedButton label="Contact Me" disableTouchRipple type="submit" style={{height: 70}} />
         </form>
+        </Fade>
         </Col>
         
       </Row>

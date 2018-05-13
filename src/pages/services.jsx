@@ -13,7 +13,9 @@ import Josh6 from '../../static/josh2.jpg';
 const Services = () => (
   <div className="container about-container">
     <Helmet title={`Services | ${config.siteTitle}`} />
+    <Fade >        
     <Header1>Services</Header1>
+    </Fade>
     <Container text>
         <Row >
         <Col xs={12} md={8} >
@@ -32,7 +34,9 @@ const Services = () => (
         </Fade>
         </Col>
         <Col xs={12} md={4}>
+        <Fade up>
         <img src={Josh6}/>
+        </Fade>
         </Col>
       </Row>
       <Fade up>
