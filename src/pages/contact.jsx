@@ -7,7 +7,7 @@ import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
 import { Fade } from 'react-reveal';
 import TextField from 'material-ui/TextField';
-import RaisedButton from 'material-ui/RaisedButton';
+import Button from 'material-ui/Button';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 const Contact = () => (
@@ -32,7 +32,7 @@ const Contact = () => (
         Please send all enquiries to :  <b style={{color: 'pink'}}>companionjosh@yahoo.com</b>
         </p>
         <form method="post" action="mailto:companionjosh@yahoo.com" >
-        <RaisedButton label="Contact Me" disableTouchRipple type="submit" style={{height: 70}} />
+        <Button label="Contact Me" type="submit" style={{height: 70}} />
         </form>
         </Fade>
         </Col>
