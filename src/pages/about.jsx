@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Header from '../components/Header/Header';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
@@ -19,14 +18,14 @@ const About = () => (
     <Row >
       
         <Col xs={12} md={5} >
-        <Fade down>
+        <Fade down delay={500}>
         <img src={Josh4} width="100%"/>
         </Fade>
         </Col>
       
       
         <Col xs={12} md={3} style={{display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(0,0,0,0.5)'}}>
-        <Fade up>
+        <Fade up delay={600}> 
         <ul style={{listStyle: 'none'}}>
           <li><h2>Stats</h2></li>
           <li><b>Height:</b> 6'</li>
@@ -43,7 +42,7 @@ const About = () => (
         
         
         <Col xs={12} md={4} >
-        <Fade down>
+        <Fade down delay={700}>
         <h1>About Me</h1>
         <p>
         Between traveling with my parents, whose business kept them continually abroad, and traveling as an adult, I have visited over 30 countries across the five continents. 

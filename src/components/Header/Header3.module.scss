@@ -1,7 +1,9 @@
 @import "../../../config/variables";
 
 .header {
-  background: $brand-secondary;
+  background-image: url("../../../static/josh7.jpg");
+  background-size:cover;
+  background-position: center;  
   color: #fff;
   margin-bottom: 4rem;
   margin-top: 1rem;

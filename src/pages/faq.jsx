@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Header from '../components/Header/Header';
+import Header2 from '../components/Header/Header2';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
@@ -17,7 +17,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 const FAQ = () => (
   <div className="container about-container">
     <Helmet title={`FAQ | ${config.siteTitle}`} />
-    <Header>FAQ</Header>
+    <Header2>FAQ</Header2>
     <Container text>
     <Row >
         <Col xs={12} >

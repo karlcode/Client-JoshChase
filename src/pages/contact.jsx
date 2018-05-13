@@ -1,15 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Header from '../components/Header/Header';
+import Header3 from '../components/Header/Header3';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
+import { Fade } from 'react-reveal';
+import TextField from 'material-ui/TextField';
+import RaisedButton from 'material-ui/RaisedButton';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 const Contact = () => (
+  <MuiThemeProvider>
   <div className="container contact-container">
     <Helmet title={`Contact | ${config.siteTitle}`} />
-    <Header>Contact</Header>
+    <Header3>Contact</Header3>
     <Container text>
     <Row style={{ textAlign: 'left'}}>
         <Col xs={12} md={6} offset={{ md: 3 }} >
@@ -20,6 +25,12 @@ const Contact = () => (
         <p>
         In order to maintain the mystique of our dealings, the majority of my clients prefer to communicate in writing to discuss the finer details.
         </p>
+        <p>
+        Please send all enquiries to :  <b style={{color: 'pink'}}>companionjosh@yahoo.com</b>
+        </p>
+        <form method="post" action="mailto:companionjosh@yahoo.com" >
+        <RaisedButton label="Contact Me" disableTouchRipple type="submit" style={{height: 70}} />
+        </form>
         </Col>
         
       </Row>
@@ -27,6 +38,7 @@ const Contact = () => (
     </Container>
     <Footer />
   </div>
+  </MuiThemeProvider>
 );
 
 export default Contact;

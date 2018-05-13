@@ -20,7 +20,7 @@ const Index = props => {
         <title>{config.siteTitle}</title>
       </Helmet>
       <Container text>
-      <Fade>
+      <Fade delay={500}>
       <Row >
         <Col xs={12} >
         

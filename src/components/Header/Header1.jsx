@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import styles from './Header.module.scss';
+import styles from './Header1.module.scss';
 
 const Header = ({ children }) => (
   <div className={styles.header}>

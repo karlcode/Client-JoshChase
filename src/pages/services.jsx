@@ -1,20 +1,22 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Header from '../components/Header/Header';
+import Header1 from '../components/Header/Header1';
 import Container from '../components/Container/Container';
 import Footer from '../components/Footer/Footer';
 import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
 import PriceBox from '../components/PriceBox/PriceBox'
 import { Fade } from 'react-reveal';
+import Josh6 from '../../static/josh2.jpg';
+
 
 const Services = () => (
   <div className="container about-container">
     <Helmet title={`Services | ${config.siteTitle}`} />
-    <Header>Services</Header>
+    <Header1>Services</Header1>
     <Container text>
         <Row >
-        <Col xs={12}  >
+        <Col xs={12} md={8} >
         <Fade up>
             <p>
             I provide the <b>ultimate</b> boyfriend experience – without the argument or clinginess - whether it's just for a quiet evening, an intellectual conversation over dinner, or for groundbreaking sex - it's totally your call. </p>
@@ -28,6 +30,9 @@ const Services = () => (
 
             </p>
         </Fade>
+        </Col>
+        <Col xs={12} md={4}>
+        <img src={Josh6}/>
         </Col>
       </Row>
       <Fade up>
