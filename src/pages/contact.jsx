@@ -7,11 +7,9 @@ import config from '../../config/SiteConfig';
 import { Grid, Row, Col } from 'react-grid-system';
 import { Fade } from 'react-reveal';
 import TextField from 'material-ui/TextField';
-import Button from 'material-ui/Button';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import { Button } from 'react-bootstrap';
 
 const Contact = () => (
-  <MuiThemeProvider>
   <div className="container contact-container">
     <Helmet title={`Contact | ${config.siteTitle}`} />
     <Fade >
@@ -21,7 +19,7 @@ const Contact = () => (
     <Row style={{ textAlign: 'left'}}>
         <Col xs={12} md={6} offset={{ md: 3 }} >
         <Fade >
-        <h1>Our first contact...</h1>
+        <h1>The dared first contact</h1>
         <p>
         If you are here contacting me for the first time then please don't feel nervous as I can understand your apprehension and I shall endeavour to put you at ease.
         </p>
@@ -32,7 +30,8 @@ const Contact = () => (
         Please send all enquiries to :  <b style={{color: 'pink'}}>companionjosh@yahoo.com</b>
         </p>
         <form method="post" action="mailto:companionjosh@yahoo.com" >
-        <Button label="Contact Me" type="submit" style={{height: 70}} />
+        <Button style={{backgroundColor: 'white', width: 100, border: 'none'}} type="Submit">Contact Now</Button>
+
         </form>
         </Fade>
         </Col>
@@ -42,7 +41,6 @@ const Contact = () => (
     </Container>
     <Footer />
   </div>
-  </MuiThemeProvider>
 );
 
 export default Contact;

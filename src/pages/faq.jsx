@@ -50,18 +50,10 @@ const FAQ = () => (
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemTitle>
-                    <h3>Are the photos on your site really of you?</h3>
-                </AccordionItemTitle>
-                <AccordionItemBody>
-                    <p>Yes, absolutely! Each one represents me accurately and I am confident you will be pleased with my appearance. I take great pride in maintaining my exquisite grooming.</p>
-                </AccordionItemBody>
-            </AccordionItem>
-            <AccordionItem>
-                <AccordionItemTitle>
                     <h3>Why do you blur your face in your photos?</h3>
                 </AccordionItemTitle>
                 <AccordionItemBody>
-                    <p>I shadow my face for both my privacy and the privacy of those I see. However, I can provide facial pictures before you go ahead with a booking.</p>
+                    <p>I shadow my face for both my privacy and the privacy of those I see.</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>

@@ -30,6 +30,8 @@ const About = () => (
           <li><h2>Stats</h2></li>
           <li><b>Height:</b> 6'</li>
           <li><b>Weight:</b> 75kg</li>
+          <li><b>Age:</b> 30's</li>
+          <li><b>Orientation:</b> Heterosexual</li>
           <li><b>Ethnicity:</b> Latin American</li>
           <li><b>Occupation:</b> Entrepreneur, Model</li>
           <li><b>Age:</b> 36</li>
