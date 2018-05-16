@@ -12,7 +12,7 @@ module.exports = {
   // og: Meta Tags
   ogSiteName: 'emma', // Facebook Site Name
   googleAnalyticsID: 'UA-12345689-1',
-  copyright: 'Copyright © 2017. All rights reserved.', // Copyright in the footer of the site
+  copyright: 'Copyright © 2018. All rights reserved.', // Copyright in the footer of the site
   // You can translate these three words into your language if you want.
   // They'll be shown on the project page header
   client: 'Client',
