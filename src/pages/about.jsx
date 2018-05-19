@@ -34,7 +34,6 @@ const About = () => (
           <li><b>Orientation:</b> Heterosexual</li>
           <li><b>Ethnicity:</b> Latin American</li>
           <li><b>Occupation:</b> Entrepreneur, Model</li>
-          <li><b>Age:</b> 36</li>
           <li><b>Skin tone:</b> Fair</li>
           <li><b>Eye colour:</b> Hazel</li>
           <li><b>Hair colour:</b> Dark brown</li>
